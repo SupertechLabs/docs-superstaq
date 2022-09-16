@@ -57,3 +57,7 @@ html_theme_options = {
     "logo_only": True,
 }
 html_logo = "https://www.super.tech/wp-content/uploads/2021/08/SuperstaQ_SSa-R03a_Mil-_Converted_-1.svg"
+html_css_files = [
+    'css/custom.css',
+]
+html_favicon = "https://i0.wp.com/www.super.tech/wp-content/uploads/2021/07/cropped-favicon.png"
