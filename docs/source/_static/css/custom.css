@@ -1,7 +1,24 @@
+/* general ---------------------------------------------------------*/
+
 html {
     font-family: Helvetica, sans-serif;
 }
 
 h1 {
     font-family: Helvetica, sans-serif;
+}
+
+/* inline code */
+.pre {
+    color: rgb(20, 164, 95);
+}
+
+/* sidebar -------------------------------------------------------- */
+
+.wy-side-nav-search {
+    background-color: white;
+}
+
+.wy-side-scroll {
+    background-color: white;
 }
