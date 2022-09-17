@@ -58,6 +58,6 @@ html_theme_options = {
 }
 html_logo = "_static/logos/superstaq-logo.svg"
 html_css_files = [
-    'css/custom.css',
+    'css/custom-test.css',
 ]
 html_favicon = "_static/logos/superstaq-favicon.png"
