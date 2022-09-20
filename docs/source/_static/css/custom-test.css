@@ -3827,7 +3827,7 @@ html{
     padding:.809em;
     margin-bottom:.809em;
     z-index:200;
-    background-color:white;
+    background-color:#F6F8F6;
     text-align:center;
     color:#fcfcfc
 }
@@ -3930,7 +3930,7 @@ html{
     overflow-y:hidden;
     min-height:100%;
     color:#404040;
-    background-color:white;
+    background-color:#F6F8F6;
     z-index:200
 }
 .wy-side-scroll{
@@ -3940,9 +3940,10 @@ html{
     overflow-y:scroll;
     height:100%
 }
+/* phone tablet nav header */
 .wy-nav-top{
     display:none;
-    background:#2980b9;
+    background:#497356;
     color:#fff;
     padding:.4045em .809em;
     position:relative;
