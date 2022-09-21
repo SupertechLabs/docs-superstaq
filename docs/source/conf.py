@@ -56,7 +56,7 @@ html_static_path = ['_static']
 html_theme_options = {
     "logo_only": True,
 }
-html_logo = "_static/logos/superstaq-logo-v2.png"
+html_logo = "_static/logos/superstaq-logo-v3.png"
 html_css_files = [
     'css/custom-test.css',
 ]

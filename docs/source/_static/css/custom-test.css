@@ -3827,7 +3827,7 @@ html{
     padding:.809em;
     margin-bottom:.809em;
     z-index:200;
-    background-color:#F6F8F6;
+    background-color:#F7F7F7;
     text-align:center;
     color:#fcfcfc
 }
@@ -3910,8 +3910,9 @@ html{
     left:auto;
     opacity:0
 }
+/* site background - maybe */
 .wy-body-for-nav{
-    background:#fcfcfc
+    background:white
 }
 .wy-grid-for-nav{
     position:absolute;
@@ -3930,7 +3931,7 @@ html{
     overflow-y:hidden;
     min-height:100%;
     color:#404040;
-    background-color:#F6F8F6;
+    background-color:#F7F7F7;
     z-index:200
 }
 .wy-side-scroll{
@@ -3977,9 +3978,10 @@ html{
     cursor:pointer;
     padding-top:inherit
 }
+/* body when resized */
 .wy-nav-content-wrap{
     margin-left:300px;
-    background:#fcfcfc;
+    background:white;
     min-height:100%
 }
 .wy-nav-content{
