@@ -3910,7 +3910,7 @@ html{
     left:auto;
     opacity:0
 }
-/* site background - maybe */
+/* site background - maybe (currently only changes if background is not white) */
 .wy-body-for-nav{
     background:white
 }
@@ -4107,6 +4107,7 @@ footer p{
         margin-left:0
     }
 }
+/* presumably version sidebar */
 .rst-versions{
     position:fixed;
     bottom:0;
