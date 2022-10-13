@@ -3676,7 +3676,7 @@ html{
     float:left;
     margin-left:-1.2em;
     line-height:18px;
-    color:red;
+    color:#4d4d4d;
     border:none;
     background:none;
     padding:0
@@ -4276,8 +4276,9 @@ footer p{
     display:block;
     overflow:auto
 }
+/* code block border */
 .rst-content div[class^=highlight],.rst-content pre.literal-block{
-    border:1px solid #e1e4e5;
+    border:none;
     overflow-x:auto;
     margin:1px 0 24px
 }
@@ -4584,8 +4585,9 @@ html.writer-html5 .rst-content table.docutils td>p,html.writer-html5 .rst-conten
     font-size:100%!important;
     line-height:normal
 }
+/* inline code color (used to be e74c3c) */
 .rst-content code.literal,.rst-content tt.literal{
-    color:#e74c3c;
+    color:#70C8A0;
     white-space:normal
 }
 .rst-content code.xref,.rst-content tt.xref,a .rst-content code,a .rst-content tt{
