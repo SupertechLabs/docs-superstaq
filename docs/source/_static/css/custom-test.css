@@ -3629,8 +3629,9 @@ html{
 .wy-menu-vertical{
     width:300px
 }
+/* sidebar TOC headers (e.g., Get started) */
 .wy-menu-vertical header,.wy-menu-vertical p.caption{
-    color:#55a5d9;
+    color:#70C8A0;
     height:32px;
     line-height:32px;
     padding:0 1.618em;
@@ -3651,15 +3652,17 @@ html{
     border-bottom:1px solid #404040
 }
 .wy-menu-vertical li.current{
-    background:#e3e3e3
+    background:#ECECEC
 }
+/* subheaders of current toctree in sidebar */
 .wy-menu-vertical li.current a{
-    color:grey;
-    border-right:1px solid #c9c9c9;
+    color:#303030;
+    border-right:none;
     padding:.4045em 2.427em
 }
 .wy-menu-vertical li.current a:hover{
-    background:#d6d6d6
+    background:none;
+    color: #8DCB71
 }
 .rst-content .wy-menu-vertical li tt,.wy-menu-vertical li .rst-content tt,.wy-menu-vertical li code{
     border:none;
@@ -3673,7 +3676,7 @@ html{
     float:left;
     margin-left:-1.2em;
     line-height:18px;
-    color:#4d4d4d;
+    color:red;
     border:none;
     background:none;
     padding:0
@@ -3689,17 +3692,20 @@ html{
 .wy-menu-vertical li.current>a:hover,.wy-menu-vertical li.on a:hover{
     background:#fcfcfc
 }
+/* expand symbol in sidebar toctree hover*/
 .wy-menu-vertical li.current>a:hover button.toctree-expand,.wy-menu-vertical li.on a:hover button.toctree-expand{
-    color:grey
+    color:#8DCB71
 }
+/* expand symbol in sidebar toctree */
 .wy-menu-vertical li.current>a button.toctree-expand,.wy-menu-vertical li.on a button.toctree-expand{
     display:block;
     line-height:18px;
-    color:#333
+    color:#303030
 }
+/* current position in sidebar toctree */
+/* not sure yet where background color is being determined */
 .wy-menu-vertical li.toctree-l1.current>a{
-    border-bottom:1px solid #c9c9c9;
-    border-top:1px solid #c9c9c9
+    border:none
 }
 .wy-menu-vertical .toctree-l1.current .toctree-l2>ul,.wy-menu-vertical .toctree-l2.current .toctree-l3>ul,.wy-menu-vertical .toctree-l3.current .toctree-l4>ul,.wy-menu-vertical .toctree-l4.current .toctree-l5>ul,.wy-menu-vertical .toctree-l5.current .toctree-l6>ul,.wy-menu-vertical .toctree-l6.current .toctree-l7>ul,.wy-menu-vertical .toctree-l7.current .toctree-l8>ul,.wy-menu-vertical .toctree-l8.current .toctree-l9>ul,.wy-menu-vertical .toctree-l9.current .toctree-l10>ul,.wy-menu-vertical .toctree-l10.current .toctree-l11>ul{
     display:none
@@ -3797,16 +3803,17 @@ html{
     color:#d9d9d9;
     font-weight:400
 }
+/* sidebar links */
 .wy-menu-vertical a{
     line-height:18px;
     padding:.4045em 1.618em;
     display:block;
     position:relative;
     font-size:90%;
-    color:#d9d9d9
+    color:#303030
 }
 .wy-menu-vertical a:hover{
-    background-color:#4e4a4a;
+    background-color:#ECECEC;
     cursor:pointer
 }
 .wy-menu-vertical a:hover button.toctree-expand{
