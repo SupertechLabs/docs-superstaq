@@ -22,11 +22,11 @@ author = 'Super.tech'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    "sphinx.ext.napoleon",  # allows google- and numpy- style docstrings
     "nbsphinx",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.mathjax",  # math rendering in html
-    "sphinx.ext.napoleon",  # allows google- and numpy- style docstrings
 ]
 
 # since our notebooks can involve network I/O (or even costing $), we don't want them to be
