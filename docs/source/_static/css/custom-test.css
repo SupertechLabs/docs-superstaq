@@ -2627,7 +2627,7 @@ button[disabled]{
     background-color:#27ae60;
     text-decoration:none;
     font-weight:400;
-    font-family:Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-family:Helvetica Neue,Arial,sans-serif;
     box-shadow:inset 0 1px 2px -1px hsla(0,0%,100%,.5),inset 0 -2px 0 0 rgba(0,0,0,.1);
     outline-none:false;
     vertical-align:middle;
@@ -2982,7 +2982,7 @@ input{
 input[type=button],input[type=reset],input[type=submit]{
     -webkit-appearance:button;
     cursor:pointer;
-    font-family:Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-family:Helvetica Neue,Arial,sans-serif;
     *overflow:visible
 }
 input[type=color],input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week]{
@@ -2991,7 +2991,7 @@ input[type=color],input[type=date],input[type=datetime-local],input[type=datetim
     display:inline-block;
     border:1px solid #ccc;
     font-size:80%;
-    font-family:Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-family:Helvetica Neue,Arial,sans-serif;
     box-shadow:none;
     border-radius:0;
     -webkit-transition:border .3s linear;
@@ -3052,7 +3052,7 @@ textarea{
     overflow:auto;
     vertical-align:top;
     width:100%;
-    font-family:Lato,proxima-nova,Helvetica Neue,Arial,sans-serif
+    font-family:Helvetica Neue,Arial,sans-serif
 }
 select,textarea{
     padding:.5em .625em;
@@ -3398,7 +3398,7 @@ body,html{
 }
 /* body text */
 body{
-    font-family:Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-family:Helvetica Neue,Arial,sans-serif;
     font-weight:400;
     color:#404040;
     min-height:100%;
@@ -3458,7 +3458,7 @@ a.wy-text-neutral:hover{
 .rst-content .toctree-wrapper>p.caption,h1,h2,h3,h4,h5,h6,legend{
     margin-top:0;
     font-weight:700;
-    font-family:Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif
+    font-family:Roboto Mono,Helvetica Neue,Arial,sans-serif
 }
 p{
     line-height:24px;
@@ -3634,7 +3634,7 @@ html{
     color:#70C8A0;
     height:32px;
     line-height:32px;
-    padding:0 1.618em;
+    padding:0 1.47em;
     margin:12px 0 0;
     display:block;
     font-weight:700;
@@ -3922,7 +3922,7 @@ html{
 }
 /* site background - maybe (currently only changes if background is not white) */
 .wy-body-for-nav{
-    background:white
+    background:#fff
 }
 .wy-grid-for-nav{
     position:absolute;
@@ -4100,9 +4100,10 @@ footer p{
         overflow:hidden
     }
 }
+/* background for when the browser size is large */
 @media screen and (min-width:1100px){
     .wy-nav-content-wrap{
-        background:rgba(0,0,0,.05)
+        background:white
     }
     .wy-nav-content{
         margin:0;
@@ -4125,7 +4126,7 @@ footer p{
     width:300px;
     color:#303030;
     background:none;
-    font-family:Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-family:Helvetica Neue,Arial,sans-serif;
     z-index:400
 }
 .rst-versions a{
@@ -4448,7 +4449,7 @@ footer p{
 }
 .rst-content .sidebar .sidebar-title{
     display:block;
-    font-family:Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif;
+    font-family:'Roboto Mono',Helvetica Neue,Arial,sans-serif;
     font-weight:700;
     background:#e1e4e5;
     padding:6px 12px;
@@ -4773,6 +4774,13 @@ span[id*=MathJax-Span]{
     font-style:normal;
     font-weight:700;
     src:url(fonts/Roboto-Slab-Bold.woff2?9984f4a9bda09be08e83f2506954adbe) format("woff2"),url(fonts/Roboto-Slab-Bold.woff?bed5564a116b05148e3b3bea6fb1162a) format("woff");
+    font-display:block
+}
+@font-face{
+    font-family:Roboto Mono;
+    font-style:normal;
+    font-weight:700;
+    src:url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap);
     font-display:block
 }
 pre { line-height: 125%; }
