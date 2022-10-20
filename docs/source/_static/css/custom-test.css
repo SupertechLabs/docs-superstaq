@@ -3639,7 +3639,7 @@ html{
     display:block;
     font-weight:700;
     text-transform:uppercase;
-    font-size:85%;
+    font-size:100%;
     white-space:nowrap
 }
 .wy-menu-vertical ul{
@@ -3652,7 +3652,7 @@ html{
     border-bottom:1px solid #404040
 }
 .wy-menu-vertical li.current{
-    background:#ECECEC
+    background:none
 }
 /* subheaders of current toctree in sidebar */
 .wy-menu-vertical li.current a{
@@ -3671,12 +3671,13 @@ html{
     padding-left:0;
     padding-right:0
 }
+/* heading for current section in toctree sidebar */
 .wy-menu-vertical li button.toctree-expand{
     display:block;
     float:left;
     margin-left:-1.2em;
     line-height:18px;
-    color:#4d4d4d;
+    color:#303030;
     border:none;
     background:none;
     padding:0
@@ -3685,7 +3686,7 @@ html{
     color:#404040;
     font-weight:700;
     position:relative;
-    background:#fcfcfc;
+    background:none;
     border:none;
     padding:.4045em 1.618em
 }
@@ -3779,8 +3780,9 @@ html{
 .wy-menu-vertical li.toctree-l10.current li.toctree-l11>a{
     padding:.4045em 1.618em .4045em 16.989em
 }
+/* current position in toctree sidebar */
 .wy-menu-vertical li.toctree-l2.current>a,.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a{
-    background:#c9c9c9
+    background:none
 }
 .wy-menu-vertical li.toctree-l2 button.toctree-expand{
     color:#a3a3a3
@@ -4104,7 +4106,7 @@ footer p{
     }
     .wy-nav-content{
         margin:0;
-        background:#fcfcfc
+        background:white
     }
 }
 @media print{
@@ -4121,8 +4123,8 @@ footer p{
     bottom:0;
     left:0;
     width:300px;
-    color:#fcfcfc;
-    background:#1f1d1d;
+    color:#303030;
+    background:none;
     font-family:Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
     z-index:400
 }
@@ -4135,7 +4137,7 @@ footer p{
 }
 .rst-versions .rst-current-version{
     padding:12px;
-    background-color:#272525;
+    background-color:none;
     display:block;
     text-align:right;
     font-size:90%;
