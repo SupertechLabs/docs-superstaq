@@ -21,6 +21,13 @@ Learn more about SuperstaQ `here <https://www.super.tech/about-superstaq/>`_.
 .. toctree::
    :maxdepth: 1
    :hidden:
+   :caption: Demos
+
+   demos/community_detection_football.ipynb
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
    :caption: Clients
 
    cirq_superstaq
