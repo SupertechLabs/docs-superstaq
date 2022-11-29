@@ -27,6 +27,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.mathjax",  # math rendering in html
     "sphinx.ext.napoleon",  # allows google- and numpy- style docstrings
+    "IPython.sphinxext.ipython_console_highlighting",
 ]
 
 # since our notebooks can involve network I/O (or even costing $), we don't want them to be
