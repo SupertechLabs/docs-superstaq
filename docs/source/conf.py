@@ -59,9 +59,6 @@ html_theme_options = {
 }
 html_logo = "_static/logos/superstaq-logo-v3.png"
 html_css_files = [
-    # 'css/theme-dss.css',
-    # 'css/dss-colors.css',
-    'css/custom-test.css',
-    # 'css/custom-pygments.css',
+    'css/docs-superstaq.css',
 ]
 html_favicon = "_static/logos/superstaq-favicon.png"
