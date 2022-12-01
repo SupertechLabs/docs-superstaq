@@ -7,6 +7,27 @@ SuperstaQ Documentation
 =======================
 Welcome to SuperstaQ's documentation! Here you can find more information about our packages ``cirq-superstaq`` and ``qiskit-superstaq``, which allow access to SuperstaQ via a Web API through `Cirq <https://github.com/quantumlib/Cirq>`_ and `Qiskit <https://qiskit.org/>`_, respectively.
 
+Check out some of our demos to see how SuperstaQ can help you:
+
+.. raw:: html
+
+   <div class="index-demos">
+      <div class="index-demos-box">
+         <div class="index-demos-headers"><a href="demos/community_detection_football.html">Community Detection</a></div>
+         <div class="index-demos-desc">A general form of a network problem that can be used to detect fraud rings in transaction networks.</div>
+      </div>
+      <div class="index-demos-box">
+         <div class="index-demos-headers"><a href="demos/currency_arbitrage.html">Currency Arbitrage</a></div>
+         <div class="index-demos-desc">See how quantum techniques can find the most profitable arbitrage opportunity in a network of exchange rates where rates aren’t necessarily symmetrical.</div>
+      </div>
+      <div class="index-demos-box">
+         <div class="index-demos-headers"><a href="demos/goal_based_investing.html">Goal Based Investing</a></div>
+         <div class="index-demos-desc">An example of how to allocate wealth and investments to maximize expected value delivered over a specific time horizon.</div>
+      </div>
+   </div>
+   <br>
+
+
 Learn more about SuperstaQ `here <https://www.super.tech/about-superstaq/>`_.
 
 
