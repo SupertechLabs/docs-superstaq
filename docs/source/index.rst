@@ -17,12 +17,12 @@ Check out some of our demos to see how SuperstaQ can help you:
          <div class="index-demos-desc">A general form of a network problem that can be used to detect fraud rings in transaction networks.</div>
       </div>
       <div class="index-demos-box">
-         <div class="index-demos-headers"><a href="demos/currency_arbitrage.html">Currency Arbitrage</a></div>
-         <div class="index-demos-desc">See how quantum techniques can find the most profitable arbitrage opportunity in a network of exchange rates where rates aren’t necessarily symmetrical.</div>
+         <div class="index-demos-headers"><a href="demos/transaction_settlement.html">Transaction Settlement</a></div>
+         <div class="index-demos-desc">Walk through a formulaton of the transaction settlement problem that maximizes the number of settled equity trades.</div>
       </div>
       <div class="index-demos-box">
-         <div class="index-demos-headers"><a href="demos/goal_based_investing.html">Goal Based Investing</a></div>
-         <div class="index-demos-desc">An example of how to allocate wealth and investments to maximize expected value delivered over a specific time horizon.</div>
+         <div class="index-demos-headers"><a href="demos/insurance_pricing.html">Optimizing Insurance Prices</a></div>
+         <div class="index-demos-desc">An example of how to calculate insurance premiums that balance profitability with market growth.</div>
       </div>
    </div>
    <br>
@@ -42,14 +42,11 @@ Learn more about SuperstaQ `here <https://www.super.tech/about-superstaq/>`_.
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Demos
+   :caption: Applications
 
-   demos/community_detection_football
-   demos/currency_arbitrage
-   demos/goal_based_investing
-   demos/insurance_pricing
-   demos/risk_neutral_probabilities_options
-   demos/transaction_settlement
+   apps/community_detection_football
+   apps/insurance_pricing
+   apps/transaction_settlement
 
 .. toctree::
    :maxdepth: 1
